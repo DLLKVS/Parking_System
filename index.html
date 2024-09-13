@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>𝐏𝐀𝐑𝐊𝐈𝐍𝐆</title>
+  <link rel="shortcut icon" href="https://pngimg.com/d/parking_PNG7.png" type="image/png">
+  <link rel="stylesheet" href="Parking.css">
+</head>
+<body>
+  <header><h2><u>Parking Registeration System</u></h2></header>
+  <main>
+    <form onsubmit="return false;">
+      <fieldset>
+        <pre>
+        <label>𝐍𝐚𝐦𝐞:</label>
+        <input type="text" id="name" placeholder="Sam">
+        
+        <label>𝐕𝐞𝐡𝐢𝐜𝐥𝐞 𝐍𝐚𝐦𝐞:</label>
+        <input type="text" id="vehicleName" placeholder="Lamborgini">
+    
+        <label>𝐕𝐞𝐡𝐢𝐜𝐥𝐞 𝐍𝐮𝐦𝐛𝐞𝐫:</label>
+        <input type="text" id="vehicleNumber" placeholder="DL1ZA3769">
+    
+        <label>𝐄𝐧𝐭𝐫𝐲 𝐃𝐚𝐭𝐞:</label>
+        <input type="date" id="entryDate" >
+    
+        <label>𝐄𝐱𝐢𝐭 𝐃𝐚𝐭𝐞:</label>
+        <input type="date" id="exitDate" >
+      </pre>
+        <div class="save">
+        <button onclick="saveData()">𝐒𝐚𝐯𝐞</button>
+        </div>
+      </fieldset>
+    </form>
+    
+    <table id="parkingTable">
+      <tr>
+        <th>𝐍𝐚𝐦𝐞</th>
+        <th>𝐕𝐞𝐡𝐢𝐜𝐥𝐞 𝐍𝐚𝐦𝐞</th>
+        <th>𝐕𝐞𝐡𝐢𝐜𝐥𝐞 𝐍𝐮𝐦𝐛𝐞𝐫</th>
+        <th>𝐄𝐧𝐭𝐫𝐲 𝐃𝐚𝐭𝐞</th>
+        <th>𝐄𝐱𝐢𝐭 𝐃𝐚𝐭𝐞</th>
+      </tr>
+    </table>
+    <footer></footer>
+  <script src="Parking.js"></script>
+</body>
+</html>
